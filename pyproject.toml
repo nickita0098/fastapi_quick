@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pythonproject14"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Maslenko <nickita0098@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.13.2"
+sqlalchemy = "^2.0.31"
+fastapi = "^0.111.1"
+psycopg2-binary = "^2.9.9"
+pyjwt = {extras = ["crypto"], version = "^2.8.0"}
+passlib = "^1.7.4"
+bcrypt = "^4.2.0"
+funcs = "^0.10.1"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
